@@ -1,8 +1,17 @@
+import './Nav.css';
 
-
-const Nav = () => {
+export const Nav = () => {
   return (
-    <div>From Nav</div>
+    <div className={"nv"}>From Nav</div>
   )
 }
-export default Nav
+ 
+export const Head = () => {
+
+  let name = true;
+  return (
+    <>
+    <div className={name? "nv": "hid"}>From Nav/Head</div>
+    </>
+  )
+}

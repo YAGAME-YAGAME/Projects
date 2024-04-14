@@ -1,0 +1,14 @@
+.posts {
+    border: 3px solid rgb(26, 156, 176);
+    border-radius: 7px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+hr{
+    margin:25px;
+    width: 90%;
+}

@@ -1,0 +1,9 @@
+.nv {
+    font-size: 30px;
+    color: white;
+    background-color: gray;
+    padding:15px;
+    width:30%;
+    border-radius:7px;
+    margin: 10px auto;
+}

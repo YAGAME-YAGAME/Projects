@@ -1,0 +1,16 @@
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.pos {
+    width: 70%;
+}
+.butt {
+    width: 25%;
+    border: 3px solid rgb(101, 20, 158);
+    border-radius: 7px;
+    
+}
+

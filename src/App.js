@@ -1,10 +1,17 @@
 import './App.css';
-import Nav from './Components/Nav'
+import Navbar from './Components/navbar/Navbar';
+import Containers from './Components/containers/Containers';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navbar />
+      
+      <div className="content">
+        <Containers />
+      </div>
+        
+      
     </div>
   );
 }  
